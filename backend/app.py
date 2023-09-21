@@ -21,7 +21,6 @@ def get_db_connection():
     return psycopg2.connect(host=db_host, port=db_port, dbname=db_name, user=db_user, password=db_password)
 
 openaiApi = os.getenv("OPENAI_API_KEY")
-openaiApi = "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"
 
 from address import *
 from cart import *
